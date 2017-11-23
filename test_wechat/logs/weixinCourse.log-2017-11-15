@@ -1,0 +1,5 @@
+[INFO ] 2017-11-15 07:01:53,116 com.sina.cloudstorage.util.VersionInfoUtils Unable to load version information for the running SDK: /com/sina/cloudstorage/sdk/versionInfo.properties not found on classpath
+[INFO ] 2017-11-15 07:14:46,974 com.sina.cloudstorage.util.VersionInfoUtils Unable to load version information for the running SDK: /com/sina/cloudstorage/sdk/versionInfo.properties not found on classpath
+[INFO ] 2017-11-15 07:16:03,844 com.sina.cloudstorage.util.VersionInfoUtils Unable to load version information for the running SDK: /com/sina/cloudstorage/sdk/versionInfo.properties not found on classpath
+[INFO ] 2017-11-15 07:16:35,944 com.sina.cloudstorage.util.VersionInfoUtils Unable to load version information for the running SDK: /com/sina/cloudstorage/sdk/versionInfo.properties not found on classpath
+[INFO ] 2017-11-15 07:38:25,318 org.liufeng.weixin.main.MenuManager 菜单创建成功！

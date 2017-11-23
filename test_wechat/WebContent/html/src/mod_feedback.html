@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="../css/amazeui.min.css">
+    <link rel="stylesheet" href="../css/wap.css?2">
+    <title>用户手册</title>
+    	
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+	
+    <!-- bootstrap-progressbar -->
+    <link href="../vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <!-- JQVMap -->
+    <link href="../vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet"/>
+    <!-- bootstrap-daterangepicker -->
+    <link href="../vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+    
+    
+</head>
+<body style="background:#ececec">
+<div class="pet_mian" >
+	<div class="pet_content_block">
+	  <article data-am-widget="paragraph" class="am-paragraph am-paragraph-default pet_content_article" data-am-paragraph="{ tableScrollable: true, pureview: true }">
+	  <h1 class="pet_article_title">信息反馈</h1>
+	   <div class="clearfix"></div>
+	              <div class="col-md-12 col-sm-12 col-xs-12">
+	                
+	        </div><div class="x_panel">
+	                  <div class="x_title">
+	                    <h2 style="color: #000000; font-size:13px;">欢迎您提出宝贵的意见和建议</h2>
+	     
+	                    <div class="clearfix"></div>
+	                  </div>
+	                  <div class="x_content">
+	                      <textarea cols="30" rows="20" style="width: 100%; height: 250px; border-style: solid; border-color: #000000;"></textarea>
+	                       <div class="form-group">
+	                         <label class="control-label col-md-12 col-sm-12 col-xs-12" style="color: #000000; font-size:20px;">联系方式</label>
+	                         <div class="col-md-12 col-sm-12 col-xs-12">
+	                           <input type="text" class="form-control" placeholder="邮箱/QQ/手机号" style="width: 50%; ">
+	                         </div>
+	                         <div align="right"><button type="submit" class="btn btn-success">提交</button>
+	                         
+	                         </div>
+	                  	  </div>                 		
+	                  </div>     
+	          </div> 
+	  </article>       
+	  </div>
+
+
+      <div class="pet_article_footer_info">Copyright(c)2017 @卓目"云"异纤清除机 </div>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/amazeui.min.js"></script>
+<script>
+$(function(){
+
+    // 动态计算新闻列表文字样式
+    auto_resize();
+    $(window).resize(function() {
+        auto_resize();
+    });
+    $('.am-list-thumb img').load(function(){
+        auto_resize();
+    });
+
+    $('.am-list > li:last-child').css('border','none');
+    function auto_resize(){
+        $('.pet_list_one_nr').height($('.pet_list_one_img').height());
+
+    }
+        $('.pet_nav_gengduo').on('click',function(){
+            $('.pet_more_list').addClass('pet_more_list_show');
+       });
+        $('.pet_more_close').on('click',function(){
+            $('.pet_more_list').removeClass('pet_more_list_show');
+        });
+});
+
+</script>
+</body>
+</html>

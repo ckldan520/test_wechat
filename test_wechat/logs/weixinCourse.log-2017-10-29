@@ -1,0 +1,4 @@
+[INFO ] 2017-10-29 17:31:47,196 org.liufeng.weixin.main.MenuManager 菜单创建成功！
+[ERROR] 2017-10-29 17:54:23,948 org.liufeng.course.util.MenuUtil 创建菜单失败 errcode:40026 errmsg:invalid sub button key size hint: [tztK0863vr19]
+[INFO ] 2017-10-29 17:54:23,948 org.liufeng.weixin.main.MenuManager 菜单创建失败！
+[INFO ] 2017-10-29 17:55:28,866 org.liufeng.weixin.main.MenuManager 菜单创建成功！

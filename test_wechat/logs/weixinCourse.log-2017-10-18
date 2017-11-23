@@ -1,0 +1,6 @@
+[INFO ] 2017-10-18 15:05:38,362 com.sina.cloudstorage.util.VersionInfoUtils Unable to load version information for the running SDK: /com/sina/cloudstorage/sdk/versionInfo.properties not found on classpath
+[WARN ] 2017-10-18 15:05:38,857 com.sina.cloudstorage.services.scs.internal.Mimetypes Unable to find 'mime.types' file in classpath
+[INFO ] 2017-10-18 15:09:22,482 com.sina.cloudstorage.util.VersionInfoUtils Unable to load version information for the running SDK: /com/sina/cloudstorage/sdk/versionInfo.properties not found on classpath
+[WARN ] 2017-10-18 15:09:22,774 com.sina.cloudstorage.services.scs.internal.Mimetypes Unable to find 'mime.types' file in classpath
+[INFO ] 2017-10-18 15:23:43,996 com.sina.cloudstorage.util.VersionInfoUtils Unable to load version information for the running SDK: /com/sina/cloudstorage/sdk/versionInfo.properties not found on classpath
+[WARN ] 2017-10-18 15:23:44,287 com.sina.cloudstorage.services.scs.internal.Mimetypes Unable to find 'mime.types' file in classpath
